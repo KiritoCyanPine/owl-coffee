@@ -2,11 +2,17 @@
 
 Owl Coffee is a simple, fast, and easy-to-use app to keep your mac awake.
 
-![owl](doc/media/ReadmeImage.png)
+<div align="center" width="100%">
+    <img src="doc/media/ReadmeImage.png" style="max-height: 50%; width: auto; border-radius: 10px;" alt="Owl Coffee Logo"> 
+</div>
 
 Built with [Electron](https://www.electronjs.org/) it taps into the high-level commands supported by the mac operating system to prevent it from going to sleep, with an option to keep the display awake.
 
 All with the convinence of system tray options.
+
+## Application Demo
+
+![alt text](doc/media/owlCoffeeDemo.gif)
 
 ## Installation
 
