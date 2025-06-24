@@ -1,0 +1,19 @@
+{
+  "name": "owl-coffee",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "tsc && electron .",
+    "build": "tsc",
+    "electron": "electron ."
+  },
+  "compilerOptions": {
+    "outDir": "dist"
+  },
+  "devDependencies": {
+    "electron": "^29.0.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^5.0.0",
+    "@types/electron": "^29.0.0",
+    "@types/node": "^20.0.0"
+  }
+}

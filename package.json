@@ -1,0 +1,33 @@
+{
+  "name": "owl-coffee",
+  "version": "1.0.0",
+  "main": "./dist/main.js",
+  "scripts": {
+    "start": "tsc && electron .",
+    "compile": "tsc",
+    "build": "tsc && npx electron-builder --mac",
+    "electron": "electron ."
+  },
+  "keywords": [],
+  "author": "KiritoCyanPine",
+  "license": "ISC",
+  "description": "A simple Electron app for managing macOS sleep cycle using caffeinate.",
+  "devDependencies": {
+    "@types/electron": "^1.6.12",
+    "@types/node": "^24.0.3",
+    "electron": "^36.5.0",
+    "electron-builder": "^26.0.12",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "build": {
+    "files": [
+      "dist/**/*",
+      "package.json"
+    ],
+    "compression": "maximum",
+    "extraResources": [
+      "assets/**/*"
+    ]
+  }
+}
