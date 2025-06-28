@@ -1,6 +1,6 @@
 # Owl Coffee
 
-Owl Coffee is a simple, fast, and easy-to-use app to keep your mac awake.
+Owl Coffee is a simple, fast, and easy-to-use app to keep your mac awake. 🥱
 
 <div align="center" width="100%">
     <img src="doc/media/ReadmeImage.png" style="max-height: 50%; width: auto; border-radius: 10px;" alt="Owl Coffee Logo"> 
@@ -31,7 +31,7 @@ You can also build the app from source by following the instructions in the [Bui
 To build the app, you need to have [Node.js](https://nodejs.org/) installed. Once you have Node.js, you can clone the repository and run the following commands:
 
 ```bash
-git clone
+git clone https://github.com/KiritoCyanPine/owl-coffee.git
 cd owl-coffee
 npm install
 npm run start
